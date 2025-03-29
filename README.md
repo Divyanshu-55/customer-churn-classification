@@ -58,11 +58,11 @@ python src/data_preprocessing/feature_engineering.py
 ### Train the model
 
 ```bash
-python src/train_model.py
+python src/train.py
 ```
 ### Final finetuning and evaluation
 ```bash
-python src/Evaluate_model.py
+python src/evaluate.py
 ```
 ## Model Explanation using Lime
 
