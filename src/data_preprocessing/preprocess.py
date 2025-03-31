@@ -110,6 +110,6 @@ def preprocess_data(file_path):
     return df, label_encoders
 
 if __name__ == "__main__":
-    file_path = os.path.join(os.getcwd().split("customer-churn-classification")[0], 'customer-churn-classification/data/Original/churn_data.csv')
+    file_path = os.path.join(os.getcwd().split("customer-churn-classification")[0], 'customer-churn-classification/data/original/churn_data.csv')
     df_preprocessed, encoders = preprocess_data(file_path)
     print("Data preprocessing completed successfully!")
